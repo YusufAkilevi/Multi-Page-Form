@@ -34,16 +34,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./SS/Desktop-personal.png.jpg)
-![](./SS/Desktop-plan.png.jpg)
-![](./SS/Desktop-addon.png.jpg)
-![](./SS/Desktop-checkout.png.jpg)
-![](./SS/Desktop-thanks.png.jpg)
-![](./SS/Mobile-personal.png.jpg)
-![](./SS/Mobile-plan.png.jpg)
-![](./SS/Mobile-addon.png.jpg)
-![](./SS/Mobile-checkout.png.jpg)
-![](./SS/Mobile-thanks.png.jpg)
+![](./SS/Desktop-personal.png)
+![](./SS/Desktop-plan.png)
+![](./SS/Desktop-addon.png)
+![](./SS/Desktop-checkout.png)
+![](./SS/Desktop-thanks.png)
+![](./SS/Mobile-personal.png)
+![](./SS/Mobile-plan.png)
+![](./SS/Mobile-addon.png)
+![](./SS/Mobile-checkout.png)
+![](./SS/Mobile-thanks.png)
 
 ### Links
 
