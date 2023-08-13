@@ -1,0 +1,74 @@
+.nav {
+  border-radius: 9px;
+  padding: 2rem 1.5rem;
+  background-image: url("../../assets/images/bg-sidebar-desktop.svg");
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.nav li {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-link div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.num {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(217, 100%, 97%);
+  border-radius: 100px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step {
+  font-size: 12px;
+  color: hsl(229, 24%, 87%);
+}
+.step-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.active .num {
+  background-color: hsl(206, 94%, 87%);
+  color: black;
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(217, 100%, 97%);
+  border-radius: 100px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1050px) {
+  .nav {
+    border-radius: 0;
+    background-image: url("../../assets/images/bg-sidebar-mobile.svg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav-link div {
+    display: none;
+  }
+}

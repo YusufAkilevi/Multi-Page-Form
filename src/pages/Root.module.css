@@ -1,0 +1,24 @@
+.root-layout {
+  padding: 1rem;
+  width: 60%;
+  /* height: 580px; */
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+}
+
+@media (max-width: 1050px) {
+  .root-layout {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .root-layout main {
+    background-color: hsl(217, 100%, 97%);
+    display: flex;
+    justify-content: center;
+  }
+}

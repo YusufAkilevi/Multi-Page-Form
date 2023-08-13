@@ -1,0 +1,76 @@
+.heading h1 {
+  margin-bottom: 0.5rem;
+  color: hsl(213, 96%, 18%);
+}
+.heading p {
+  margin-bottom: 2rem;
+  color: hsl(231, 11%, 63%);
+}
+.add-on-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.input-box {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+}
+.input-box:hover,
+.input-box.checked {
+  cursor: pointer;
+  border: 1px solid hsl(243, 100%, 62%);
+  background-color: hsl(217, 100%, 97%);
+}
+.input-box input {
+  cursor: pointer;
+}
+.input-box label {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-box div {
+  display: flex;
+  flex-direction: column;
+}
+.add-on {
+  color: hsl(213, 96%, 18%);
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+.add-on-description {
+  color: hsl(231, 11%, 63%);
+}
+.added-price {
+  color: hsl(243, 100%, 62%);
+}
+.links {
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: hsl(213, 96%, 18%);
+  color: hsl(217, 100%, 97%);
+  text-decoration: none;
+}
+.links a:hover {
+  background-color: hsl(213, 97%, 27%);
+}
+.links a:first-child {
+  padding: 1rem 0;
+  color: hsl(231, 11%, 63%);
+  background-color: inherit;
+}
+.links a:first-child:hover {
+  color: hsl(213, 96%, 18%);
+}

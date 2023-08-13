@@ -1,0 +1,100 @@
+.heading h1 {
+  margin-bottom: 0.5rem;
+  color: hsl(213, 96%, 18%);
+}
+.heading p {
+  margin-bottom: 2rem;
+  color: hsl(231, 11%, 63%);
+}
+.checkout-details {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: hsl(217, 100%, 97%);
+}
+.selected-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.selected-plan div {
+  display: flex;
+  flex-direction: column;
+}
+.selected-plan span {
+  margin-bottom: 0.5rem;
+  color: hsl(213, 96%, 18%);
+  font-weight: 500;
+}
+.selected-plan a {
+  color: hsl(231, 11%, 63%);
+  display: inline;
+}
+.selected-plan a:hover {
+  color: hsl(243, 100%, 62%);
+}
+.add-ons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add-ons li {
+  display: flex;
+  justify-content: space-between;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+.total-price {
+  color: hsl(243, 100%, 62%);
+  font-weight: 700;
+  font-size: 20px;
+}
+.gray-text-color {
+  color: hsl(231, 11%, 63%);
+}
+.dark-blue-text-color {
+  color: hsl(213, 96%, 18%);
+}
+.links {
+  margin-top: 3.2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: hsl(213, 96%, 18%);
+  color: hsl(217, 100%, 97%);
+  text-decoration: none;
+}
+.links a:hover {
+  background-color: hsl(213, 97%, 27%);
+}
+.links a:first-child {
+  padding: 1rem 0;
+  color: hsl(231, 11%, 63%);
+  background-color: inherit;
+}
+.links a:first-child:hover {
+  color: hsl(213, 96%, 18%);
+}
+.links button {
+  border: none;
+  background-color: hsl(243, 100%, 62%);
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 0.2rem 2rem;
+  color: hsl(231, 100%, 99%);
+}
+.links button:hover {
+  cursor: pointer;
+  background-color: hsl(243, 80%, 62%);
+}

@@ -1,0 +1,58 @@
+.heading h1 {
+  margin-bottom: 0.5rem;
+  color: hsl(213, 96%, 18%);
+}
+.heading p {
+  margin-bottom: 2rem;
+  color: hsl(231, 11%, 63%);
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+.input-box label {
+  margin-bottom: 0.5rem;
+  color: hsl(213, 96%, 18%);
+}
+.input-box label div {
+  display: flex;
+}
+.input-box input {
+  font-size: 18px;
+
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.input-box input::placeholder {
+  font-size: 18px;
+}
+.input-box input:focus {
+  outline: 1px solid hsl(243, 100%, 62%);
+}
+.links {
+  display: flex;
+}
+.links button {
+  font-family: inherit;
+  font-size: 16px;
+  border: none;
+  display: inline-block;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: hsl(213, 96%, 18%);
+  color: hsl(217, 100%, 97%);
+  text-decoration: none;
+}
+.links button:hover {
+  cursor: pointer;
+  background-color: hsl(213, 97%, 27%);
+}
+.links button:disabled {
+  background-color: hsl(231, 11%, 63%);
+  cursor: no-drop;
+}
